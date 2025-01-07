@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Egor/static/css/main.594d4669.css",
+    "main.js": "/Portfolio-Egor/static/js/main.09b83273.js",
+    "index.html": "/Portfolio-Egor/index.html",
+    "main.594d4669.css.map": "/Portfolio-Egor/static/css/main.594d4669.css.map",
+    "main.09b83273.js.map": "/Portfolio-Egor/static/js/main.09b83273.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.594d4669.css",
+    "static/js/main.09b83273.js"
+  ]
+}
