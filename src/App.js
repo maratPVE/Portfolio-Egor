@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './composants/navigation/NavBar';
 import Footer from './composants/navigation/Footer';
 import Accueil from './composants/accueil/Accueil';
@@ -12,7 +12,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="app">
         <NavBar />
         <main>
@@ -22,8 +22,10 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projets" element={<Projets />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Accueil />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
